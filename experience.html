@@ -6,6 +6,61 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header><h1>THIS FORM IS CREATED BY ME</h1></header>
+    <main>
+        <form action="/action.php">
+         <pre><big>First Name : </big><input type="text" placeholder="Enter your first name here"></pre>
+        <pre><big>Last Name :  </big><input type="text" placeholder="Enter your surname here"></pre>
+        <pre><big>Password :  </big><input type="password" placeholder="Enter your password"></pre>
+        <pre><big>Confirm Password:  </big><input type="password" placeholder="Enter your password"></pre>
+        <big>Gender : </big>
+        <label for="101">
+        <input type="radio" value="male" name="gender" id="101"><b>male</b></label>
+        <label for="102">
+        <input type="radio" value="female" name="gender" id="102"><b>female</b></label>
+        <label for="103">
+        <input type="radio" value="other" name="gender" id="103"><b>other</b></label><br><br>
+        <big>Subjects : </big>
+        <label for="104">
+            <input type="checkbox" id="104" value="math" name="subject"><b>Maths</b>
+        </label>
+        <label for="105">
+            <input type="checkbox" id="105" value="physics" name="subject"><b>Physics</b>
+        </label>
+        <label for="106">
+            <input type="checkbox" id="106" value="chemistry" name="subject"><b>Chemistry</b>
+        </label>
+        <label for="107">
+            <input type="checkbox" id="107" value="cs" name="subject"><b>Computer Science</b>
+        </label><br><br>
+        <big>Select your state : </big><label for="110">
+            <select title="state" id="110" name="state">
+              <option title="state">E.g. state</option>
+              <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+              <option value="DELHI">DELHI</option>
+              <option value="PUNJAB">PUNJAB</option>
+              <option value="HARYANA">HARYANA</option>
+            </select>
+        </label><br><br>
+        <big>Select your city : </big><label for="109">
+            <select title="city" id="109" name="city">
+              <option title="city">E.g. city</option>
+              <option value="Banglore">BANGLORE</option>
+              <option value="agra">AGRA</option>
+              <option value="patiala">PATIALA</option>
+              <option value="Delhi">DELHI</option>
+            </select>
+        </label><br><br>
+        <big>Feedback : </big><label for="108">
+        <textarea name="feedback" id="108" placeholder="Please give your feedback here" cols="30" rows="5">Feedback</textarea></label><br><br>
+        <label for="111">
+            <input type="submit" id="111" value="submit">
+        </label>
+        <label for="112">
+            <input type="reset" id="112" value="reset">
+        </label>
+        </form>
+    </main>
+    <footer></footer>
 </body>
 </html>
