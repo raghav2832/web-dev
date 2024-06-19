@@ -1,0 +1,44 @@
+*{
+    color:#2A629A;
+    div{
+        text-align: center;
+        background-color: aqua;
+}
+big{
+    font-size: 30px;
+    /* text-decoration:  dotted blue overline; */
+    text-transform:capitalize;
+    width: 120px;
+    /* line height is used to space between lines */
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    border-width: 2px;
+    border-style: dotted;
+    border-radius: 50px;
+
+}
+/* p{
+    text-align: center;
+    text-decoration:  dotted blue overline;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:30px;
+} */
+h1{
+    color:rgb(0, 50, 133);
+    font-size: 30px;
+    width: 120px;
+    text-transform: capitalize;
+    background-color: cyan;
+    border-width: 2px;
+    border-style: dotted;
+    border-radius: 50px;
+}
+body{
+    background-color: #FFDA78;
+}
+#A {
+    color: rgb(2, 131, 145);
+}
+.op {
+    color: rgb(105, 2, 145);
+}
